@@ -3,7 +3,7 @@
 # Collaborators:
 # Time Spent: x:xx
 
-def get_permutations(sequence, a, step=0):
+def get_permutations(sequence,a, step=0):
     '''
     Enumerate all permutations of a given string
 
@@ -22,7 +22,6 @@ def get_permutations(sequence, a, step=0):
     Note: depending on your implementation, you may return the permutations in
     a different order than what is listed here.
     '''
-
     if step == len(sequence):
         # we've gotten to the end, print the permutation
         a.append(''.join(sequence[:]))
@@ -49,6 +48,6 @@ if __name__ == '__main__':
 #    to be three characters or fewer as you will have n! permutations for a 
 #    sequence of length n)
     a=[]
-    print(get_permutations('cat'))
+    print(get_permutations('cat',a))
 
 
