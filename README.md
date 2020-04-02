@@ -1,6 +1,8 @@
 # python-projects
 To run these programs, open in PyCharm and press run
 
+Program Descriptions:
+
 Hangman: This file lets you play the game "Hangman" against a computer. The computer will randomly select a word and you have 6 incorrect tries to guess letters in the computer's chosen word. If you would like a hint to see all the possible words that computer could have chosen, you can input the character "*"
 *note: make sure the text.txt file is in the same folder as the hangman program
 
