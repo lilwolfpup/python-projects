@@ -3,7 +3,7 @@
 # Collaborators:
 # Time Spent: x:xx
 
-def get_permutations(sequence,step=0):
+def get_permutations(sequence, a, step=0):
     '''
     Enumerate all permutations of a given string
 
