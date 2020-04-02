@@ -25,14 +25,16 @@ def get_permutations(sequence,step=0):
 
     if step == len(sequence):
         # we've gotten to the end, print the permutation
-        print(''.join(sequence[:]))
+        a.append(''.join(sequence[:]))
+        return a
     for i in range(step, len(sequence)):
         # copy the string (store as array)
         string_copy = [c for c in sequence]
         # swap the current index with the step
         string_copy[step], string_copy[i] = string_copy[i], string_copy[step]
         # recurse on the portion of the string that has not been swapped yet
-        get_permutations(string_copy, step + 1)
+        get_permutations(string_copy, a, step + 1)
+    return a
 
 
 
@@ -46,7 +48,7 @@ if __name__ == '__main__':
 #    # Put three example test cases here (for your sanity, limit your inputs
 #    to be three characters or fewer as you will have n! permutations for a 
 #    sequence of length n)
-
-    print(get_permutations('aeiou'))
+    a=[]
+    print(get_permutations('cat'))
 
 
