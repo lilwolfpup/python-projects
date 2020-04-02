@@ -1,5 +1,7 @@
 # python-projects
-To run these programs, open in PyCharm and press run
+Description: These projects were based off of assignments provided by MIT's Introduction to Computer Science and Programming in Python course online which can be found here: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm
+
+How to run: To run these programs, open in PyCharm and press run
 
 Program Descriptions:
 
